@@ -18,10 +18,11 @@ from django.conf.urls import url
 from django.views.decorators.csrf import csrf_exempt
 
 from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token
-from .views import AuthView
+from .views import AuthAPIView,RegisterAPIView
 
 urlpatterns = [
-    url(r'^manual/$', csrf_exempt(AuthView.as_view())),
+    url('', csrf_exempt(RegisterAPIView.as_view())),
+    url(r'^register/$', csrf_exempt(AuthAPIView.as_view())),
     url(r'^jwt/$', obtain_jwt_token),
     url(r'^jwt/refresh/$', refresh_jwt_token),
 ]

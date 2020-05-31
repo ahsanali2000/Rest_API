@@ -5,21 +5,22 @@ import requests
 
 
 
-AUTH_ENDPOINT='http://127.0.0.1:8000/api/auth/manual/'
+AUTH_ENDPOINT='http://127.0.0.1:8000/api/auth/register/'
 ENDPOINT = "http://127.0.0.1:8000/api/local/"
 
 headers1={
-    'Content-Type' : 'application/json'
+    'Content-Type' : 'application/json',
     }
 data={
-    'username':'ahsanali',
+    'username':'ahsan1',
     'password':'ahsan',
+    'password2':'ahsan',
+    'email':'ahsan1@gmail.com'
     }
 r=requests.post(AUTH_ENDPOINT, data=json.dumps(data), headers=headers1)
 token=r.json()
 
 print(token)
-
 
 ##
 ##headers={    

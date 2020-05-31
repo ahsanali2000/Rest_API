@@ -35,12 +35,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/accounts/api" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahsan Ali\PycharmProjects\API\Rest\accounts\api" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ahsan Ali\PycharmProjects\API\Rest\local\api" />
       <recent name="C:\Users\Ahsan Ali\PycharmProjects\API\Rest\Rest" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ahsan Ali\PycharmProjects\API\Rest\accounts\api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,7 +109,7 @@
       <workItem from="1590776032138" duration="11466000" />
       <workItem from="1590834700624" duration="1026000" />
       <workItem from="1590853765628" duration="1184000" />
-      <workItem from="1590862603432" duration="3302000" />
+      <workItem from="1590862603432" duration="9146000" />
     </task>
     <servers />
   </component>
