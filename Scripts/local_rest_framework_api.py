@@ -10,15 +10,17 @@ ENDPOINT = "http://127.0.0.1:8000/api/local/"
 
 headers1={
     'Content-Type' : 'application/json',
+    'Authorization' : 'JWT '  + 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFoc2FuYWxpIiwiZXhwIjoxNTkwOTU0NDY0LCJlbWFpbCI6IiIsIm9yaWdfaWF0IjoxNTkwOTU0MTY0fQ.uK2or5G1_aRAH02NHHXTjYFoCnpxDZz8-2dxZA8n8gk'
     }
 data={
-    'username':'ahsan1',
+    'username':'ahsanali',
+    'email':'ahsan@gmail.com',
     'password':'ahsan',
-    'password2':'ahsan',
-    'email':'ahsan1@gmail.com'
+    'password2':'ahsan'
     }
 r=requests.post(AUTH_ENDPOINT, data=json.dumps(data), headers=headers1)
 token=r.json()
+
 
 print(token)
 

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3aadf46-2474-4e31-849c-95e2257f7e61" name="Default Changelist" comment="" />
+    <list default="true" id="c3aadf46-2474-4e31-849c-95e2257f7e61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/api/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/api/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scripts/local_rest_framework_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Scripts/local_rest_framework_api.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +37,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1c8lX9ItdE8ClCucDdbAnvkPoXa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/accounts/api" />
   </component>
@@ -110,10 +123,22 @@
       <workItem from="1590834700624" duration="1026000" />
       <workItem from="1590853765628" duration="1184000" />
       <workItem from="1590862603432" duration="9146000" />
+      <workItem from="1590935433451" duration="6663000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
