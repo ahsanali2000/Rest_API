@@ -1,8 +1,12 @@
 from rest_framework import serializers
 from local.models import Status
 
+from accounts.api.serializer import UserPublicSerializer
+
 
 class StatusSerializer(serializers.ModelSerializer):
+    user = UserPublicSerializer(read_only=True)
+
     class Meta:
         model = Status
         fields = [

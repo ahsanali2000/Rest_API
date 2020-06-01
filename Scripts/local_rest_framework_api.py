@@ -6,7 +6,7 @@ import requests
 
 
 AUTH_ENDPOINT='http://127.0.0.1:8000/api/auth/'
-ENDPOINT = "http://127.0.0.1:8000/api/local/14/"
+ENDPOINT = "http://127.0.0.1:8000/api/local/6/"
 
 image_path=os.path.join(os.getcwd(), 'card.jpeg')
 
@@ -15,29 +15,22 @@ headers1={
     #'Authorization' : 'JWT '  + 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFoc2FuYWxpIiwiZXhwIjoxNTkwOTU0NDY0LCJlbWFpbCI6IiIsIm9yaWdfaWF0IjoxNTkwOTU0MTY0fQ.uK2or5G1_aRAH02NHHXTjYFoCnpxDZz8-2dxZA8n8gk'
     }
 data={
-    'username':'ahsanali',
+    'username':'ahsan1',
     'password':'ahsan',
     }
 r=requests.post(AUTH_ENDPOINT, data=json.dumps(data), headers=headers1)
 token=r.json()['token']
 
-
-print(token)
+##
+##print(token)
 
 header2={
     'Authorization':'JWT '+token
     }
-data2={
-    'content':'updated testing IsOwner'
-    }
-               
-with open(image_path,'rb') as image:
-    file_data={
-        'image':image
-        }
-    r=requests.put(ENDPOINT, data=data2, headers=header2, files=file_data)
 
-    print(r.text)
+r=requests.get(ENDPOINT, headers=header2)
+
+print(r.text)
 ##AUTH_ENDPOINT='http://127.0.0.1:8000/api/auth/register/'
 ##ENDPOINT = "http://127.0.0.1:8000/api/local/"
 ##

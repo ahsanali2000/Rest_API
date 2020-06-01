@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c3aadf46-2474-4e31-849c-95e2257f7e61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/api/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/api/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/local/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scripts/local_rest_framework_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Scripts/local_rest_framework_api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +122,7 @@
       <workItem from="1590853765628" duration="1184000" />
       <workItem from="1590862603432" duration="9146000" />
       <workItem from="1590935433451" duration="7489000" />
-      <workItem from="1591024602680" duration="3742000" />
+      <workItem from="1591024602680" duration="6995000" />
     </task>
     <task id="LOCAL-00001" summary="IsOwner permission">
       <created>1591036159857</created>
@@ -129,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591036159857</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="IsOwner permission tested">
+      <created>1591041907995</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591041907995</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IsOwner permission" />
-    <option name="LAST_COMMIT_MESSAGE" value="IsOwner permission" />
+    <MESSAGE value="IsOwner permission tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="IsOwner permission tested" />
   </component>
 </project>
