@@ -4,6 +4,7 @@ from django.db.models import Q
 from rest_framework import permissions, generics
 from rest_framework.response import Response
 from rest_framework_jwt.settings import api_settings
+from accounts.api.permissions import IsOwnerOrReadOnly
 
 from .permissions import AnonPermissionOnly
 from .utils import jwt_response_payload_handler
