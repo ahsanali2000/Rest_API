@@ -23,7 +23,7 @@ class UserPublicSerializer(serializers.ModelSerializer):
         ]
 
     def get_url(self, obj):
-        return 'working'
+        return '/api/local/'+str(obj.id)+'/'
 
 
 class UserRegisterSerializer(serializers.ModelSerializer):

@@ -4,6 +4,12 @@ from local.models import Status
 from accounts.api.serializer import UserPublicSerializer
 
 
+def validate_content(value):
+    if len(value) > 10000:
+        raise serializers.ValidationError('Content is too long.')
+    return value
+
+
 class StatusSerializer(serializers.ModelSerializer):
     user = UserPublicSerializer(read_only=True)
 
@@ -16,11 +22,6 @@ class StatusSerializer(serializers.ModelSerializer):
             'image'
         ]
         read_only_fields = ['user']
-
-    def validate_content(self, value):
-        if len(value) > 10000:
-            raise serializers.ValidationError('Content is too long.')
-        return value
 
     def validate_data(self, data):
         content = data.get('content', None)
