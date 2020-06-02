@@ -1,5 +1,5 @@
 import json
-from rest_framework import generics, mixins, permissions
+from rest_framework import generics, mixins, permissions,pagination
 from accounts.api.permissions import IsOwnerOrReadOnly
 from rest_framework.authentication import SessionAuthentication
 
@@ -41,12 +41,14 @@ class StatusApiDetailView(mixins.UpdateModelMixin,
             return instance.delete()
         return None
 
-
+class CustomPagination(pagination.PageNumberPagination):
+    page_size = 5
 class StatusApiView(mixins.CreateModelMixin,
                     generics.ListAPIView):
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     serializer_class = StatusSerializer
     passed_id = None
+    pagination_class = CustomPagination
 
     def get_queryset(self):
         request = self.request
