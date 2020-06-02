@@ -20,6 +20,6 @@ from django.conf.urls import url
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url(r'^api/auth/', include('accounts.api.urls')),
-    url(r'^api/local/', include('local.api.urls')),
+    url(r'^api/auth/', include(('accounts.api.urls','auth'),namespace="api-user")),
+    url(r'^api/local/', include(('local.api.urls','local'),namespace="api-local")),
 ]

@@ -3,6 +3,7 @@ from rest_framework import serializers
 from rest_framework_jwt.settings import api_settings
 from django.utils import timezone
 import datetime
+from rest_framework.reverse import reverse as api_reverse
 from .utils import jwt_response_payload_handler
 
 jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
@@ -23,7 +24,8 @@ class UserPublicSerializer(serializers.ModelSerializer):
         ]
 
     def get_url(self, obj):
-        return '/api/local/'+str(obj.id)+'/'
+        #return api_reverse('api-local:details',kwargs={'username':obj.username})
+        return "relevrnt URI"
 
 
 class UserRegisterSerializer(serializers.ModelSerializer):

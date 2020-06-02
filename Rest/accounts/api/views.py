@@ -17,7 +17,7 @@ User = get_user_model()
 
 
 class AuthAPIView(APIView):
-    permission_classes = [AnonPermissionOnly]
+    permission_classes = []
 
     def post(self, request, *args, **kwargs):
         if request.user.is_authenticated:

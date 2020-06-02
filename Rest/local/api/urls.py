@@ -29,7 +29,7 @@ from .views import (StatusApiView,
 
 urlpatterns = [
     url(r'^$', StatusApiView.as_view()),  # /api/status/->List,create
-    url(r'^(?P<id>\d+)/$', StatusApiDetailView.as_view())
+    url(r'^(?P<id>\d+)/$', StatusApiDetailView.as_view(),name='details')
     #url(r'^(?P<id>\d+)/$', StatusDetailApiView.as_view()),  # /api/status/any-id/->Details,update,delete
     # url(r'^create/$', StatusCreateApiView.as_view()),  # /api/status/create->create   //this is handled by StatusApiView
     # url(r'^(?P<pk>\d+)/update/$', StatusUpdateApiView.as_view()),  # /api/status/any-id/update->update //this is handled by StatusDetailApiView
