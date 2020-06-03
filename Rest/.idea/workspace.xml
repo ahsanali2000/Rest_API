@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c3aadf46-2474-4e31-849c-95e2257f7e61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rest/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/api/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/local/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/local/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/local/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/local/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +124,8 @@
       <workItem from="1591089765097" duration="981000" />
       <workItem from="1591118921475" duration="2715000" />
       <workItem from="1591128870971" duration="5113000" />
+      <workItem from="1591173618332" duration="1827000" />
+      <workItem from="1591209224058" duration="877000" />
     </task>
     <task id="LOCAL-00001" summary="IsOwner permission">
       <created>1591036159857</created>
